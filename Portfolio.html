@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Irgi</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f6faff;
+    }
+
+    .header {
+        background: rgb(17, 177, 226);
+        color: white;
+        padding: 40px 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-left h1 {
+        margin: 0;
+        font-size: 38px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .header-left p {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .contact {
+        margin-top: 20px;
+        line-height: 1.8;
+        font-size: 15px;
+    }
+
+    .contact a {
+        color: white;
+        text-decoration: underline;
+    }
+
+    .profile-img {
+        background: white;
+        padding: 8px;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.14);
+    }
+
+    .profile-img img {
+        width: 180px;
+        height: auto;
+        border-radius: 8px;
+        border: 2px solid rgb(17,177,226);
+    }
+
+    .container {
+        padding: 40px 60px;
+        background: white;
+        margin: 20px auto;
+        width: 80%;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.08);
+    }
+
+    .section-title {
+        font-size: 22px;
+        font-weight: bold;
+        color: rgb(21, 162, 243);
+        margin-bottom: 10px;
+        padding: 7px 16px;
+        border: 2px solid rgb(16, 83, 138);
+        border-radius: 20px;
+        display: inline-block;
+        background: #f3f9fc;
+    }
+
+    .info-table {
+        width: 100%;
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    ul {
+        margin-top: 8px;
+        line-height: 1.8;
+        font-size: 16px;
+        padding-left: 18px;
+    }
+
+    @media (max-width: 800px) {
+        .header, .container {
+            padding: 16px;
+            width: 97%;
+        }
+        .profile-img img {
+            width: 120px;
+        }
+    }
+</style>
+</head>
+
+<body>
+<div class="header">
+    <div class="header-left">
+        <h1>irgi</h1>
+        <p>Lulusan Baru</p>
+        <div class="contact">
+            📧 <a href="mailto:irgiaris07@gmail.com">irgiaris07@gmail.com</a><br>
+            📞 12 8691 4971<br>
+            📍 desa sarireja jalancagak
+        </div>
+    </div>
+    <div class="profile-img">
+        <img src="irgi.jpg" alt="Foto Profil">
+    </div>
+</div>
+<div class="container">
+    <div class="section-title">DATA PRIBADI</div>
+    <table class="info-table">
+        <tr><td>Nama</td><td>: irgi</td></tr>
+        <tr><td>Tanggal Lahir</td><td>: 30 Maret 2009</td></tr>
+        <tr><td>Alamat</td><td>: desa sarireja</td></tr>
+        <tr><td>Jenis Kelamin</td><td>: Laki-laki</td></tr>
+        <tr><td>Kewarganegaraan</td><td>: Indonesia</td></tr>
+        <tr><td>Status</td><td>: masih bersekolah</td></tr>
+    </table>
+    <br><br>
+    <div class="section-title">PENDIDIKAN</div>
+    <ul>
+        <li>SD Fauget (2015-2021)</li>
+        <li>SMP Fauget (2021-2024)</li>
+        <li>SMA Fauget (2024-2027)</li>
+    </ul>
+    <br><br>
+    <div class="section-title">PENGALAMAN</div>
+    <ul>
+        <li>Belum ada pengalaman profesional</li>
+    </ul>
+    <br><br>
+    <div class="section-title">KEAHLIAN</div>
+    <ul>
+        <li>Mengoding / Programming</li>
+    </ul>
+</div>
+</body>
+</html>
